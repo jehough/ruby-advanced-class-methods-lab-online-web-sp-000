@@ -47,11 +47,5 @@ class Song
     end
   end
 
-  def self.alphabetical
-    sorter = self.all.map do |song|
-       song.name
-     end
-     sorted = sorter.sort
-     sorted
-   end
+
 end
