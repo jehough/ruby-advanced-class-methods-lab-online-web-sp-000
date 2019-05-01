@@ -53,4 +53,5 @@ class Song
     song.name = name_array[1].strip
     song.artist_name = name_array[0].strip
     song
+  end
 end
