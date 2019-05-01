@@ -62,4 +62,8 @@ class Song
     song.artist_name = name_array[0].strip
     self.all << song
   end
+
+  def self.destroy_all
+    @all = []
+  end
 end
