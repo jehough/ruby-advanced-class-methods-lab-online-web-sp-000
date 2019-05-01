@@ -63,9 +63,8 @@ class Song
     self.all << song
   end
 
-  def destroy_all
+  def self.destroy_all
     self.all = []
-    self.all
   end
 
 end
