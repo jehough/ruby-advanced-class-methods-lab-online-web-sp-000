@@ -67,5 +67,5 @@ class Song
     self.all = []
     self.all
   end
-  
+
 end
